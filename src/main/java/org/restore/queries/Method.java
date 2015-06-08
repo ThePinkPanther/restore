@@ -4,6 +4,6 @@ package org.restore.queries;
  * @author ben
  * @version 1.0
  */
-public interface Query {
-    
+public enum Method {
+     GET,POST,PUT,DELETE,HEAD
 }

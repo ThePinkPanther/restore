@@ -1,6 +1,6 @@
 package org.restore.adapters;
 
-import org.restore.queries.Query;
+import org.restore.queries.Request;
 import org.restore.queries.Response;
 
 /**
@@ -9,6 +9,6 @@ import org.restore.queries.Response;
  */
 public interface Adapter {
 
-    public Response send(Query query);
+    public Response send(Request query);
 
 }

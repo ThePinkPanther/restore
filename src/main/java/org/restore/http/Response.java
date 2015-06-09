@@ -1,4 +1,4 @@
-package org.restore.queries;
+package org.restore.http;
 
 /**
  * @author ben
